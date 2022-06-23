@@ -1,8 +1,8 @@
 # Cum conectăm un buton la Raspberry Pi
 
-![Buton cu pull down](button_pull_down_bb.png)
-
 Butoanele de tip push, de obicei au 4 pini, legați 2 câte 2. La apăsarea butonului, cele 2 perechi de pini vor fi conectate între ele.
+
+![Buton cu pull down](button_pull_down_bb.png)
 
 ## Pull up / down
 În cazul microcontrollerelor și a plăcilor de dezvoltare digitale, orice voltaj de intrare apropiat de GND va fi citit ca 0, iar un voltaj apropiat de VCC va fi citit ca 1. Fiindcă diferența de voltaj dintre cele două este destul de mică, orice fluctuație provenită din exterior (de exemplu radiofrecvență) poate să schimbe valoarea digitală citită.
